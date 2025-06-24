@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="#FFFFFF">
+    
+    <!-- SMS/Message icon for notifications -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M4,4 L20,4 Q21,4 21,5 L21,15 Q21,16 20,16 L8,16 L4,20 L4,5 Q4,4 4,4 Z" />
+    
+    <!-- Message lines -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M6,7 L18,7 L18,8 L6,8 Z" />
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M6,10 L15,10 L15,11 L6,11 Z" />
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M6,13 L12,13 L12,14 L6,14 Z" />
+</vector>

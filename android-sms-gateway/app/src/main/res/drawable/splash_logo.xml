@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Main circle background -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M100,100m-90,0a90,90 0,1 1,180 0a90,90 0,1 1,-180 0" />
+    
+    <!-- Inner circle -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M100,100m-75,0a75,75 0,1 1,150 0a75,75 0,1 1,-150 0" />
+    
+    <!-- AgroConnect Logo -->
+    <group android:translateX="100" android:translateY="70">
+        <!-- Main wheat stem -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M-3,0 L3,0 L3,80 L-3,80 Z" />
+        
+        <!-- Left grain clusters -->
+        <path
+            android:fillColor="#FF9800"
+            android:pathData="M-12,8 Q-18,12 -12,18 Q-6,12 -12,8 Z" />
+        <path
+            android:fillColor="#FF9800"
+            android:pathData="M-15,25 Q-21,29 -15,35 Q-9,29 -15,25 Z" />
+        <path
+            android:fillColor="#FF9800"
+            android:pathData="M-12,42 Q-18,46 -12,52 Q-6,46 -12,42 Z" />
+        <path
+            android:fillColor="#FF9800"
+            android:pathData="M-10,59 Q-16,63 -10,69 Q-4,63 -10,59 Z" />
+        
+        <!-- Right grain clusters -->
+        <path
+            android:fillColor="#FF9800"
+            android:pathData="M12,8 Q18,12 12,18 Q6,12 12,8 Z" />
+        <path
+            android:fillColor="#FF9800"
+            android:pathData="M15,25 Q21,29 15,35 Q9,29 15,25 Z" />
+        <path
+            android:fillColor="#FF9800"
+            android:pathData="M12,42 Q18,46 12,52 Q6,46 12,42 Z" />
+        <path
+            android:fillColor="#FF9800"
+            android:pathData="M10,59 Q16,63 10,69 Q4,63 10,59 Z" />
+        
+        <!-- Leaves -->
+        <path
+            android:fillColor="#4CAF50"
+            android:pathData="M-8,15 Q-20,10 -25,20 Q-20,30 -8,25 Z" />
+        <path
+            android:fillColor="#4CAF50"
+            android:pathData="M8,15 Q20,10 25,20 Q20,30 8,25 Z" />
+    </group>
+    
+    <!-- SMS/Communication symbol -->
+    <group android:translateX="100" android:translateY="160">
+        <!-- Phone/message icon -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M-20,-10 L20,-10 Q25,-10 25,-5 L25,5 Q25,10 20,10 L-20,10 Q-25,10 -25,5 L-25,-5 Q-25,-10 -20,-10 Z" />
+        
+        <!-- Message lines -->
+        <path
+            android:fillColor="#2E7D32"
+            android:pathData="M-15,-5 L15,-5 L15,-2 L-15,-2 Z" />
+        <path
+            android:fillColor="#2E7D32"
+            android:pathData="M-15,0 L10,0 L10,3 L-15,3 Z" />
+        <path
+            android:fillColor="#2E7D32"
+            android:pathData="M-15,5 L5,5 L5,8 L-15,8 Z" />
+        
+        <!-- Signal waves -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M-35,12 Q-30,8 -25,12"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="3" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M25,12 Q30,8 35,12"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="3" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M-40,18 Q-32,12 -25,18"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="2" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M25,18 Q32,12 40,18"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="2" />
+    </group>
+</vector>

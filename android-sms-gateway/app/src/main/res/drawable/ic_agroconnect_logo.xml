@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M60,60m-55,0a55,55 0,1 1,110 0a55,55 0,1 1,-110 0" />
+    
+    <!-- Inner Circle -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M60,60m-45,0a45,45 0,1 1,90 0a45,45 0,1 1,-90 0" />
+    
+    <!-- Wheat/Grain Symbol -->
+    <group android:translateX="60" android:translateY="35">
+        <!-- Main stem -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M-2,0 L2,0 L2,50 L-2,50 Z" />
+        
+        <!-- Grain clusters -->
+        <path
+            android:fillColor="#FF9800"
+            android:pathData="M-8,5 Q-12,8 -8,12 Q-4,8 -8,5 Z" />
+        <path
+            android:fillColor="#FF9800"
+            android:pathData="M8,5 Q12,8 8,12 Q4,8 8,5 Z" />
+        
+        <path
+            android:fillColor="#FF9800"
+            android:pathData="M-10,15 Q-14,18 -10,22 Q-6,18 -10,15 Z" />
+        <path
+            android:fillColor="#FF9800"
+            android:pathData="M10,15 Q14,18 10,22 Q6,18 10,15 Z" />
+        
+        <path
+            android:fillColor="#FF9800"
+            android:pathData="M-8,25 Q-12,28 -8,32 Q-4,28 -8,25 Z" />
+        <path
+            android:fillColor="#FF9800"
+            android:pathData="M8,25 Q12,28 8,32 Q4,28 8,25 Z" />
+    </group>
+    
+    <!-- SMS/Signal waves -->
+    <group android:translateX="60" android:translateY="85">
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M-15,-5 Q-10,-8 -5,-5 Q0,-8 5,-5 Q10,-8 15,-5"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="2"
+            android:fillType="nonZero" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M-12,0 Q-8,-3 -4,0 Q0,-3 4,0 Q8,-3 12,0"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="2"
+            android:fillType="nonZero" />
+    </group>
+</vector>
